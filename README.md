@@ -1,26 +1,24 @@
-Phase-4-Project
+# Phase-4-Project
+![image](https://github.com/ellahad/ellahad-Phase-4-Project/assets/92978069/f355722e-a541-4b02-b57b-fd4db2088455)
+# Real Estate Analysis And Forecasting
 
-image
-Real Estate Analysis And Forecasting
-Objectives of the study
+## Objectives of the study
+- The real estate market is always transforming, affected by several factors such as the economy and demographic trends.
+  
+- Understanding the trends in property values and rental rates is key for investors, developers, and policymakers to make smart decisions.
+  
+- We aim to give pleasant, confident, and educated analysis and projections regarding the real estate market in the United States, allowing everyone involved to easily navigate the housing market.
 
-    The real estate market is always transforming, affected by several factors such as the economy and demographic trends.
+## Problem Statement:
+- The real estate investment firm has tasked us, as consultants, with identifying the top 5 zip codes for investment opportunities. 
 
-    Understanding the trends in property values and rental rates is key for investors, developers, and policymakers to make smart decisions.
+- In this context, "best" is defined primarily in terms of profit margins. The recommendation should prioritize zip codes with the highest potential for profitability, based on historical real estate price data.
 
-    We aim to give pleasant, confident, and educated analysis and projections regarding the real estate market in the United States, allowing everyone involved to easily navigate the housing market.
+## Main Objectives:
 
-Problem Statement:
+- The primary objective of this project is to utilize time series modeling techniques to identify the top 5 zip codes for investment opportunities for a fictional real estate investment firm. The focus will predominantly be on maximizing profit margins.
 
-    The real estate investment firm has tasked us, as consultants, with identifying the top 5 zip codes for investment opportunities.
-
-    In this context, "best" is defined primarily in terms of profit margins. The recommendation should prioritize zip codes with the highest potential for profitability, based on historical real estate price data.
-
-Main Objectives:
-
-    The primary objective of this project is to utilize time series modeling techniques to identify the top 5 zip codes for investment opportunities for a fictional real estate investment firm. The focus will predominantly be on maximizing profit margins.
-
-Key Deliverables:
+## Key Deliverables:
 
 1). Identification of the top 5 zip codes with the highest potential for profit margins.
 
@@ -31,73 +29,39 @@ Key Deliverables:
 4). Evaluation of the robustness of the recommendation and sensitivity to changes in assumptions.
 
 5). Presentation of findings through clear visualizations and a compelling narrative to facilitate decision-making by stakeholders.
-Dataset Overview
 
-    This project uses a dataset obtained from Kaggle. The dataset was originally web-extracted from the Zillow website(Filter == USA housing).
+## Dataset Overview 
+- This project uses a dataset obtained from Kaggle. The dataset was originally web-extracted from the Zillow website(Filter == USA housing).
 
-    The dataset contains information on various regions, cities, and states along with their property values over time.
+- The dataset contains information on various regions, cities, and states along with their property values over time.
 
-    By examining factors such as regional demographics and property characteristics, we seek to understand what influences property values in different areas.
+- By examining factors such as regional demographics and property characteristics, we seek to understand what influences property values in different areas.
 
-    The target variable is in the price column.
+- The target variable is in the price column.
 
-    The dataset can be downloaded directly from Kaggle or this repo in the Data.csv file.
+- The dataset can be downloaded directly from Kaggle  or this repo in the Data.csv file.
 
-Data Analysis And Time-series Forecasting
+## Data Analysis And Time-series Forecasting
+- Data preparation, feature engineering, and data analysis were performed on the dataset.
 
-    Data preparation, feature engineering, and data analysis were performed on the dataset.
+- Time series forecasting was then performed on the dataset to obtain the top 5 zip codes with the highest RIO.
 
-    Time series forecasting was then performed on the dataset to obtain the top 5 zip codes with the highest RIO.
+- From the forecasting, the following visualized zip codes were found to be the best in terms of investment opportunity.
 
-    From the forecasting, the following visualized zip codes were found to be the best in terms of investment opportunity.
+![image](https://github.com/ellahad/ellahad-Phase-4-Project/assets/92978069/e5941feb-af15-4f35-8dcb-c660f49aaf49)
 
-image
-Conclusions.
+## Conclusions.
 
-    Opportunity, Zipcode 94804 offers the highest ROI forecast.
+- Opportunity, Zipcode 94804 offers the highest ROI forecast.
 
-    Market Outlook: Positive price forecasts in all zip codes indicate favorable market conditions.
+- Market Outlook: Positive price forecasts in all zip codes indicate favorable market conditions.
 
-    Caution: Avoid Zipcode 85035 due to negative ROI.
+- Caution: Avoid Zipcode 85035 due to negative ROI.
 
-Reccommendations.
+## Reccommendations.
 
 1). Consider prioritizing investment in Zipcode 94804 due to its highest forecasted ROI among the top five zip codes.
 
 2). While all zip codes show promising forecasted prices and positive trends, exercise caution in Zipcode 85035, which lacks a positive ROI.
 
 3). Emphasize the importance of continuously monitoring market trends, economic indicators, and relevant external factors that may impact the real estate market.
-About
-No description, website, or topics provided.
-Resources
-Readme
-Activity
-Stars
-0 stars
-Watchers
-1 watching
-Forks
-0 forks
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Contributors 4
-
-    @ellahad
-    ellahad Evayne Macharia
-    @LauraMutheu
-    LauraMutheu Laura Mutheu
-    @CMukiri
-    CMukiri
-    @estherwaiyaki
-    estherwaiyaki
-
-Languages
-
-    Jupyter Notebook 100.0% 
-
-Footer
-© 202
